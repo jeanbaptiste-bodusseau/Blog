@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContactEmailNonConforme" xml:space="preserve">
+    <value>Email non conforme</value>
+  </data>
+  <data name="ContactTelNonConforme" xml:space="preserve">
+    <value>Numéro de télephone non conforme</value>
+  </data>
+  <data name="PremierContactObligatoire" xml:space="preserve">
+    <value>Le 1er contact ne peut pas etre null</value>
+  </data>
+  <data name="EntiteTypeNonConforme" xml:space="preserve">
+    <value>Le type d'entité rentré n'est pas un type d'entite valide</value>
+  </data>
+  <data name="EntiteLei_EUIDNull" xml:space="preserve">
+    <value>Le code LEI et le code EU ID d'une entité ne peuvent pas etre null tout les deux.</value>
+  </data>
+  <data name="EntiteLeiNonConforme" xml:space="preserve">
+    <value>Code lei non conforme</value>
+  </data>
+  <data name="EntiteAffecteTypeObligatoire" xml:space="preserve">
+    <value>Le type de l'entité affecte doit etre renseigne</value>
+  </data>
+  <data name="EntiteAffecteTypeNonConforme" xml:space="preserve">
+    <value>Le type de l'entite ne respecte pas les choix demandés</value>
+  </data>
+  <data name="EvaluationImpactChamp3_8Obligatoire" xml:space="preserve">
+    <value>Le champ 3.8 est obligatoire pour les rapports intermediaires et finaux si le champ 2.5 a renseigné "Client, financiel counterparts and transactions affected"</value>
+  </data>
+  <data name="ActifsAffecteChamp3_6-3_7Obligatoire" xml:space="preserve">
+    <value>le champ 3.6 et 3.7 sont obligatoire en cas de rapport intermediaire ou final</value>
+  </data>
+  <data name="EntiteNomObligatoire" xml:space="preserve">
+    <value>Le nom de l'entité ne peut pas etre null</value>
+  </data>
+  <data name="EntiteLeiObligatoire" xml:space="preserve">
+    <value>Le code LEI de l'entité ne peut pas etre null</value>
+  </data>
+  <data name="ActifsAffecteErreur3_6_3_7" xml:space="preserve">
+    <value>Erreur lors de la lecture des champs 3.6 et 3.7</value>
+  </data>
+  <data name="ActifsAffecteErreur3_4_3_5" xml:space="preserve">
+    <value>Erreur lors de la lecture des champs 3.4 et 3.5</value>
+  </data>
+  <data name="ActifsAffecteParse3_9" xml:space="preserve">
+    <value>Erreur lors du parse du champ 3.9</value>
+  </data>
+  <data name="ActifsAffecteChamps3_10_3_11Obligatoire" xml:space="preserve">
+    <value>Les champs 3.10 et 3.11 sont obligatoires si le champs 3.9 &gt; 0</value>
+  </data>
+  <data name="ActifsAffecteErreur3_9_3_10" xml:space="preserve">
+    <value>Erreur lors de la lecture des champs 3.9 et 3.10</value>
+  </data>
+  <data name="ActifsAffecteParse3_11" xml:space="preserve">
+    <value>Erreur lors du parse du champ 3.11</value>
+  </data>
+  <data name="ActifsAffecteChamp3_12Obligatoire" xml:space="preserve">
+    <value>Le champ 3.12 ne peut pas etre vide en cas de rapport intermediaire ou final</value>
+  </data>
+  <data name="ActifsAffecteChamp3_12NonConforme" xml:space="preserve">
+    <value>Les valeurs du champ 3.12 ne correspondent pas à celles possibles</value>
+  </data>
+  <data name="ClassificationChamp2_5Obligatoire" xml:space="preserve">
+    <value>Le critere de classification est obligatoire</value>
+  </data>
+  <data name="ClassificationChamp2_6Obligatoire" xml:space="preserve">
+    <value>En cas de critere de classification Geographical Spread, le champ 2.6 est obligatoire</value>
+  </data>
+  <data name="ClassificationChamp2_5NonConforme" xml:space="preserve">
+    <value>Les champs 2.6 ne respectent pas les variables attendus</value>
+  </data>
+  <data name="ClassificationChamp3_20_3_21Obligatoire" xml:space="preserve">
+    <value>En cas de critere de classification Data losses, les elements 3.20 et 3.21 sont obligatoires</value>
+  </data>
+  <data name="ClassificationChamp3_20NonConforme" xml:space="preserve">
+    <value>Le champs 3.20 ne respecte pas les variables attendus</value>
+  </data>
+  <data name="ClassificationChamp3_13_3_14Obligatoire" xml:space="preserve">
+    <value>En cas de critere de classification Reputational Impact, les elements 3.13 et 3.14 sont obligatoires</value>
+  </data>
+  <data name="ClassificationChamp3_13NonConforme" xml:space="preserve">
+    <value>Le champ 3.13 ne respecte pas les variables attendus</value>
+  </data>
+  <data name="EvaluationImpactChamp3_22Obligatoire" xml:space="preserve">
+    <value>Le champ 3.22 est obligatoire pour les rapports intermediaires et finaux</value>
+  </data>
+  <data name="EvaluationImpactChamp3_27Obligatoire" xml:space="preserve">
+    <value>Le champ 3.27 est obligatoire pour les rapports intermediaires et finaux</value>
+  </data>
+  <data name="EvaluationImpactChamp3_28Obligatoire" xml:space="preserve">
+    <value>Le champ 3.28 est obligatoire pour les rapports intermediaires et finaux</value>
+  </data>
+  <data name="EvaluationImpactChamp3_28NonConforme" xml:space="preserve">
+    <value>Le champ 3.28 ne respectent pas les valeurs possibles</value>
+  </data>
+  <data name="EvaluationImpactChamp3_29Obligatoire" xml:space="preserve">
+    <value>Le champ 3.29 est obligatoire si le champ 3.28 indique yes</value>
+  </data>
+  <data name="EvaluationImpactChamp3_30Obligatoire" xml:space="preserve">
+    <value>Le champ 3.30 est obligatoire pour les rapports intermediaires et finaux</value>
+  </data>
+  <data name="IncidentChamp2_10Obligatoire" xml:space="preserve">
+    <value>Le champ 2.10 doit etre remplie si 1.1 est un incident majeure reclasse en non-majeure</value>
+  </data>
+  <data name="IncidentChamp2_1Obligatoire" xml:space="preserve">
+    <value>Le champ 2.1 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_2Obligatoire" xml:space="preserve">
+    <value>Le champ 2.2 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_3Obligatoire" xml:space="preserve">
+    <value>Le champ 2.3 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_4Obligatoire" xml:space="preserve">
+    <value>Le champ 2.4 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_9Obligatoire" xml:space="preserve">
+    <value>Le champ 2.9 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_8Obligatoire" xml:space="preserve">
+    <value>Le champ 2.8 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_7Obligatoire" xml:space="preserve">
+    <value>Le champ 2.7 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_9NonConforme" xml:space="preserve">
+    <value>Le champ 2.9 ne correpond pas aux valeurs attendus.</value>
+  </data>
+  <data name="IncidentChamp2_2NonConforme" xml:space="preserve">
+    <value>Le champ 2.2 est non-conforme au format attendu</value>
+  </data>
+  <data name="ImpactServiceChamp3_16Erreur" xml:space="preserve">
+    <value>Erreur lors de la lecture du champs 3.16 : </value>
+  </data>
+  <data name="ImpactServiceChamp3_33Obligatoire" xml:space="preserve">
+    <value>Le champ 3.33 est obligatoire pour les rapport intermediaire et finaux</value>
+  </data>
+  <data name="ImpactServiceChamp3_34Obligatoire" xml:space="preserve">
+    <value>Le champ 3.34 est obligatoire si le champ 3.33 indique Yes</value>
+  </data>
+  <data name="ImpactServiceChamp3_3Obligatoire" xml:space="preserve">
+    <value>Le champ 3.3 est obligatoire si la durée en 3.16 est supérieure à zero</value>
+  </data>
+  <data name="ImpactServiceChamp3_3NonConforme" xml:space="preserve">
+    <value>La date en champ 3.3 est invalide</value>
+  </data>
+  <data name="TypeIncidentChamp3_23Obligatoire" xml:space="preserve">
+    <value>Le champ 3.23 est obligatoire</value>
+  </data>
+  <data name="TypeIncidentChamp3_23NonConforme" xml:space="preserve">
+    <value>Champ 3.23 du type de l'incident non valide</value>
+  </data>
+  <data name="TypeIncidentChamp3_25_3_35Obligatoire" xml:space="preserve">
+    <value>Si le champs 3.23 contients cyberscurity-related, les champs 3.25 et 3.35 sont obligatoire</value>
+  </data>
+  <data name="TypeIncidentChamp3_25NonConforme" xml:space="preserve">
+    <value>Le champ 3.25 est non-conforme au valeurs attendus</value>
+  </data>
+  <data name="TypeIncidentChamp3_24Obligatoire" xml:space="preserve">
+    <value>Ssi le champ 3.23 est other, le champs 3.24 est obligatoire</value>
+  </data>
+  <data name="TypeIncidentChamp3_26Obligatoire" xml:space="preserve">
+    <value>Si le champ 3.25 est other, le champs 3.26 est obligatoire</value>
+  </data>
+  <data name="ExcelHelperFichierNonTrouve" xml:space="preserve">
+    <value>Le programme ne peux pas accéder au fichier, fichier introuvable, assurez vous d'avoir renseigné le bon chemin/nom de fichier</value>
+  </data>
+  <data name="ExcelHelperFichierDejaUtilise" xml:space="preserve">
+    <value>Le fichier renseigné est déja utilisé par un autre processus</value>
+  </data>
+  <data name="ExcelHelperErreurInatendu" xml:space="preserve">
+    <value>Une erreur est survenu lors de la lecture du fichier.</value>
+  </data>
+  <data name="ClassificationChamp3_18_3_19Obligatoire" xml:space="preserve">
+    <value>Les champs 3.18 et 3.19 sont obligatoires en cas de Classification geographical_spread pour les rapports intermediaires et finaux</value>
+  </data>
+  <data name="ClassificationChamp3_18NonConforme" xml:space="preserve">
+    <value>Le champ 3_18 ne correspondant pas aux valeurs attendus</value>
+  </data>
+  <data name="RapportAutoriteObligaoire" xml:space="preserve">
+    <value>Le champ 3.31 est obligaoire pour les rapports intermediaire et finaux et doit utiliser des valeurs predefinies</value>
+  </data>
+  <data name="RapportAutreAutorite" xml:space="preserve">
+    <value>Le champ 3.32 est requis si le champ 3.31 contient Autres</value>
+  </data>
+  <data name="ErreurLog" xml:space="preserve">
+    <value>Nouvelle Erreur : </value>
+  </data>
+  <data name="ErreurLogEnfant" xml:space="preserve">
+    <value>erreur enfant : </value>
+  </data>
+  <data name="ClassificationChamp4_12Obligatoire" xml:space="preserve">
+    <value>Le champ 4.12 doit etre renseigné pour les rapports finaux</value>
+  </data>
+  <data name="IncidentChamp3_2NonConforme" xml:space="preserve">
+    <value>Le champ 3.2 est non-conforme au format attendu</value>
+  </data>
+  <data name="IncidentChamp4_1NonConforme" xml:space="preserve">
+    <value>Le champ 4.1 ne contient pas les valeurs attendus</value>
+  </data>
+  <data name="IncidentChamp4_1Obligatoire" xml:space="preserve">
+    <value>Le champ 4.1 est obligatoire pour les rapports finaux</value>
+  </data>
+  <data name="IncidentChamp4_2Obligatoire" xml:space="preserve">
+    <value>Le champ 4.2 est obligatoire pour les rapports finaux</value>
+  </data>
+  <data name="IncidentChamp4_2NonConforme" xml:space="preserve">
+    <value>Le champ 4.2 ne correspond pas aux valeurs attendus</value>
+  </data>
+  <data name="IncidentChamp4_3Obligatoire" xml:space="preserve">
+    <value>Le champ 4.3 est obligatoire pour certaines valeurs du champ 4.2</value>
+  </data>
+  <data name="IncidentChamp4_3NonConforme" xml:space="preserve">
+    <value>Le champ 4.3 ne correspond pas aux valeurs attendues</value>
+  </data>
+  <data name="IncidentChamp4_4Obligatoire" xml:space="preserve">
+    <value>Le champ 4.4 est obligatoire si le champ 4.2 renseigne Other</value>
+  </data>
+  <data name="IncidentChamp4_5Obligatoire" xml:space="preserve">
+    <value>Le champ 4.5 est obligatoire pour les rapport finaux</value>
+  </data>
+  <data name="IncidentChamp4_7NonConforme" xml:space="preserve">
+    <value>Le champ 4.7 est au mauvais format</value>
+  </data>
+  <data name="IncidentChamp4_6Obligatoire" xml:space="preserve">
+    <value>Le champ 4.6 est obligatoire pour les rapport finaux</value>
+  </data>
+  <data name="IncidentChamp4_8NonConforme" xml:space="preserve">
+    <value>Le champ 4.8 est au mauvais format</value>
+  </data>
+  <data name="IncidentChamp4_11Obligatoire" xml:space="preserve">
+    <value>Le champ 4.11 doit etre renseigne si le champ 4.10 l'est</value>
+  </data>
+  <data name="IncidentChamp4_14NonConforme" xml:space="preserve">
+    <value>Le champ 4.14 est au mauvais format</value>
+  </data>
+  <data name="IncidentChamp4_13NonConforme" xml:space="preserve">
+    <value>Le champ 4.13 est au mauvais format</value>
+  </data>
+  <data name="IncidentChamp4_16Obligatoire" xml:space="preserve">
+    <value>Le champ 4.16 est obligatoire si le champ 4.15 est renseigné</value>
+  </data>
+  <data name="IncidentChamp4_16NonConforme" xml:space="preserve">
+    <value>Le champ 4.16 est au mauvais format</value>
+  </data>
+  <data name="ActifsAffecteChamps3_4_3_5Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.4 et 3.5 réussi</value>
+  </data>
+  <data name="ActifsAffecteChamp3_6_3_7Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.6 et 3.7 réussi</value>
+  </data>
+  <data name="ActifsAffecteChamps3_9_3_10_3_11Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.9, 3.10 et 3.11 réussi</value>
+  </data>
+  <data name="ActifsAffecteChamp3_11Reussite" xml:space="preserve">
+    <value>Lecture du champ 3.11 réussi</value>
+  </data>
+  <data name="ActifsAffecteChamp3_12Reussite" xml:space="preserve">
+    <value>Lecture du champ 3.12 réussi</value>
+  </data>
+  <data name="ClassificationChamp2_5Reussite" xml:space="preserve">
+    <value>Lecture du champ 2.5 réussi</value>
+  </data>
+  <data name="ClassificationChamp3_18_3_19Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.18 et 3.19 réussi</value>
+  </data>
+  <data name="ClassificationChamp3_20_3_21Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.20 et 3.21 réussi</value>
+  </data>
+  <data name="ClassificationChamp3_13_3_14Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.13 et 3.14 réussi</value>
+  </data>
+  <data name="ClassificationChamp4_12Reussite" xml:space="preserve">
+    <value>Lecture du champ 4.12 réussi</value>
+  </data>
+  <data name="ActifsAffecteReussite" xml:space="preserve">
+    <value>Reussite création ActifsAffecte</value>
+  </data>
+  <data name="ClassificationReussite" xml:space="preserve">
+    <value>Reussite création Classification</value>
+  </data>
+  <data name="ContactNomReussite" xml:space="preserve">
+    <value>Lecture nom Contact réussi</value>
+  </data>
+  <data name="ContactEmailReussite" xml:space="preserve">
+    <value>Lecture email Contact réussi</value>
+  </data>
+  <data name="ContactTelReussite" xml:space="preserve">
+    <value>Lecture numéro de téléphone Contact réussi</value>
+  </data>
+  <data name="ContactReussite" xml:space="preserve">
+    <value>Reussite création Contact</value>
+  </data>
+  <data name="EntiteNomReussite" xml:space="preserve">
+    <value>Lecture nom Entité réussi</value>
+  </data>
+  <data name="EntiteCodeReussite" xml:space="preserve">
+    <value>Lecture code Entite réussi</value>
+  </data>
+  <data name="EntiteAffecteTypeReussite" xml:space="preserve">
+    <value>Lecture type EntiteAffecté réussi</value>
+  </data>
+  <data name="EntiteTypeReussite" xml:space="preserve">
+    <value>Lecture type Entite réussi</value>
+  </data>
+  <data name="EntiteReussite" xml:space="preserve">
+    <value>Réussite création Entité</value>
+  </data>
+  <data name="EvaluationImpactReussite" xml:space="preserve">
+    <value>Réussite création EvaluationImpact</value>
+  </data>
+  <data name="EvaluationImpactChamp3_8Reussite" xml:space="preserve">
+    <value>Lecture champ 3.8 réussi</value>
+  </data>
+  <data name="EvaluationImpactChamp3_22Reussite" xml:space="preserve">
+    <value>Lecture champ 3.22 réussi</value>
+  </data>
+  <data name="EvaluationImpactChamp3_27Reussite" xml:space="preserve">
+    <value>Lecture champ 3.27 réussi</value>
+  </data>
+  <data name="EvaluationImpactChamp3_28Reussite" xml:space="preserve">
+    <value>Lecture champ 3.28 réussi</value>
+  </data>
+  <data name="EvaluationImpactChamp3_29Reussite" xml:space="preserve">
+    <value>Lecture champ 3.29 réussi</value>
+  </data>
+  <data name="EvaluationImpactChamp3_30Reussite" xml:space="preserve">
+    <value>Lecture champ 3.30 réussi</value>
+  </data>
+  <data name="ImpactServiceReussite" xml:space="preserve">
+    <value>Réussite création ImpactService</value>
+  </data>
+  <data name="ImpactServiceChamp3_16Reussite" xml:space="preserve">
+    <value>Lecture champ 3.16 réussi</value>
+  </data>
+  <data name="ImpactServiceChamp3_3Reussite" xml:space="preserve">
+    <value>Lecture champ 3.3 réussi</value>
+  </data>
+  <data name="ImpactServiceChamp3_4Reussite" xml:space="preserve">
+    <value>Lecture champ 3.4 réussi</value>
+  </data>
+  <data name="RapportReussite" xml:space="preserve">
+    <value>Réussite création Rapport</value>
+  </data>
+  <data name="TypeIncidentReussite" xml:space="preserve">
+    <value>Réussite création TypeIncident</value>
+  </data>
+  <data name="TypeIncidentChamp3_23Reussite" xml:space="preserve">
+    <value>Lecture champ 3.23 réussi</value>
+  </data>
+  <data name="TypeIncidentChamp3_25_3_35Reussite" xml:space="preserve">
+    <value>Lecture des champs 3.25 et 3.35 réussi</value>
+  </data>
+  <data name="TypeIncidentChamp3_24Reussite" xml:space="preserve">
+    <value>Lecture champ 3.24 réussi</value>
+  </data>
+  <data name="TypeIncidentChamp3_26Reussite" xml:space="preserve">
+    <value>Lecture Champ 3.26 réussi</value>
+  </data>
+  <data name="IncidentReussite" xml:space="preserve">
+    <value>Réussite création Incident</value>
+  </data>
+  <data name="IncidentCompletionReussite" xml:space="preserve">
+    <value>Réussite complétion Incident</value>
+  </data>
+  <data name="IncidentChamp2_10Reussite" xml:space="preserve">
+    <value>Lecture champ 2.10 réussi</value>
+  </data>
+  <data name="IncidentChamp2_1Reussite" xml:space="preserve">
+    <value>Lecture champ 2.1 réussi</value>
+  </data>
+  <data name="IncidentChamp2_2Reussite" xml:space="preserve">
+    <value>Lecture champ 2.2 réussi</value>
+  </data>
+  <data name="IncidentChamp2_3Reussite" xml:space="preserve">
+    <value>Lecture champ 2.3 réussi</value>
+  </data>
+  <data name="IncidentChamp2_6Reussite" xml:space="preserve">
+    <value>Lecture champ 2.9 réussi</value>
+  </data>
+  <data name="IncidentChamp2_8Reussite" xml:space="preserve">
+    <value>Lecture champ 2.8 réussi</value>
+  </data>
+  <data name="IncidentChamp2_7Reussite" xml:space="preserve">
+    <value>Lecture champ 2.7 réussi</value>
+  </data>
+  <data name="IncidentChamp3_2_3_15Reussite" xml:space="preserve">
+    <value>Lecture champs 3.2 et 3.15 réussi</value>
+  </data>
+  <data name="ExcelHelperOuvertureReussite" xml:space="preserve">
+    <value>Ouverture fichier Excel réussi</value>
+  </data>
+  <data name="ExcelHelperExtractionReussite" xml:space="preserve">
+    <value>Extraction données réussi de la page : </value>
+  </data>
+  <data name="JsonHelperSauvegardeReussite" xml:space="preserve">
+    <value>Sauvegarde JSON réussi</value>
+  </data>
+  <data name="JsonHelperLectureReglesReussite" xml:space="preserve">
+    <value>Lecture JSON regles réussi</value>
+  </data>
+  <data name="ModeleServiceChamp1_1Reussite" xml:space="preserve">
+    <value>Lecture champ 1.1 réussi</value>
+  </data>
+  <data name="ModeleServiceChamp1_15Reussite" xml:space="preserve">
+    <value>Lecture champ 1.15 réussi</value>
+  </data>
+  <data name="ActifsAffecteChamps3_4_3_5Obligatoire" xml:space="preserve">
+    <value>Les champs 3.4 et 3.5 sont obligatoires en cas de rapport intermédiaire ou final</value>
+  </data>
+  <data name="ImpactServiceErreur3_33" xml:space="preserve">
+    <value>Erreur de lecture sur le champ 3.33</value>
+  </data>
+  <data name="FichierHelperNonTrouve" xml:space="preserve">
+    <value>Le fichier est introuvable. Veuillez vérifier le chemin pour y accéder</value>
+  </data>
+  <data name="IncidentChamp2_4Reussite" xml:space="preserve">
+    <value>Lecture du champ 2.4 réussi</value>
+  </data>
+  <data name="IncidentChamp2_6Obligatoire" xml:space="preserve">
+    <value>Le champ 3.2 ne peut pas etre nul dans les rapport intermédiaire et finaux</value>
+  </data>
+  <data name="IncidentChamp2_9Reussite" xml:space="preserve">
+    <value>Lecture champ 2.9 réussi</value>
+  </data>
+  <data name="IncidentChamp3_2Obligatoire" xml:space="preserve">
+    <value>Le champ 3.2 est obligatoire pour les rapports intermédiaires et finaux</value>
+  </data>
+  <data name="IncidentChamp3_15Erreur" xml:space="preserve">
+    <value>Erreur lors du formattage du champ 3.15 : </value>
+  </data>
+  <data name="IncidentChamp3_15Obligatoire" xml:space="preserve">
+    <value>Le champ 3.15 est obligatoire pour les rapports intermédiaires et finaux</value>
+  </data>
+  <data name="IncidentChamp3_15Reussite" xml:space="preserve">
+    <value>Lecture champ 3.15 réussi</value>
+  </data>
+  <data name="IncidentChamp3_2Reussite" xml:space="preserve">
+    <value>Lecture champ 3.2 réussi</value>
+  </data>
+  <data name="ModeleServiceChamps3_31_3_32Reussite" xml:space="preserve">
+    <value>Lecture champs 3.31 et 3.32 réussi</value>
+  </data>
+  <data name="ModeleServiceChamp3_17Reussite" xml:space="preserve">
+    <value>Lecture champ 3.17 réussi</value>
+  </data>
+  <data name="ClassificationChamp2_6NonConforme" xml:space="preserve">
+    <value>Le champ 2.6 ne respecte pas les valeurs attendus</value>
+  </data>
+  <data name="ClassificationChamp2_6Reussite" xml:space="preserve">
+    <value>Lecture du champ 2.6 réussi</value>
+  </data>
+  <data name="ContactTelObligatoire" xml:space="preserve">
+    <value>Le numéro de télephone du contact est obligatoire</value>
+  </data>
+  <data name="IncidentChamp3_17Obligatoire" xml:space="preserve">
+    <value>Le champ 3.17 est obligatoire si les champs 3.15 ou 3.16 sont specifie</value>
+  </data>
+  <data name="ContactEmailObligatoire" xml:space="preserve">
+    <value>L'email du contact est obligatoire</value>
+  </data>
+  <data name="ContactNomObligatoire" xml:space="preserve">
+    <value>Le nom du contact est obligatoire</value>
+  </data>
+  <data name="IncidentChamp2_7NonConforme" xml:space="preserve">
+    <value>Le champ 2.7 ne correspond pas aux valeurs attendus</value>
+  </data>
+  <data name="IncidentChamp2_3NonConforme" xml:space="preserve">
+    <value>Le champ 2.3 est non-conforme au format attendu</value>
+  </data>
+  <data name="EntiteTypeObligatoire" xml:space="preserve">
+	  <value>Le type de l'entité est obligatoire</value>
+  </data>
+  <data name="ModeleServiceChamp1_1Obligatoire" xml:space="preserve">
+	  <value>Le champ 1.1 est obligatoire</value>
+  </data>
+  <data name="ModeleServiceChamp1_15Obligatoire" xml:space="preserve">
+	  <value>Le champ 1.15 est obligatoire</value>
+  </data>
+  <data name="ModeleServiceChamp1_15NonConforme" xml:space="preserve">
+	  <value>La devise du rapport (champ 1.15) est invalide</value>
+  </data>
+  <data name="RapportAutoriteObligatoire" xml:space="preserve">
+	  <value>Le rapport a autorité est obligatoire : </value>
+  </data>
+  <data name="FichierHelperFormatFichierNonConforme" xml:space="preserve">
+	  <value>Mauvaise extension attendu. Veuillez revoir le format :</value>
+  </data>
+  <data name="JsonHelperLectureJsonReglesErreur" xml:space="preserve">
+	  <value>Erreur lors de la lecture des regles json</value>
+  </data>
+  <data name="IncidentChamp4_1Reussite" xml:space="preserve">
+	  <value>Lecture champ 4.1 réussi</value>
+  </data>
+  <data name="IncidentChamp4_7Obligatoire" xml:space="preserve">
+	  <value>Le champ 4.7 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp4_2_4_3Reussite" xml:space="preserve">
+	  <value>Lecture champ 4.2 et 4.3 réussi</value>
+  </data>
+  <data name="IncidentChamp4_4Reussite" xml:space="preserve">
+	  <value>Lecture du champ 4.4 réussi</value>
+  </data>
+  <data name="IncidentChamp4_5Reussite" xml:space="preserve">
+	  <value>Lecture du champ 4.5 réussi</value>
+  </data>
+  <data name="IncidentChamp4_7Reussite" xml:space="preserve">
+	  <value>Lecture du champ 4.7 réussi</value>
+  </data>
+  <data name="IncidentChamp4_6Reussite" xml:space="preserve">
+	  <value>Lecture du champ 4.6 réussi</value>
+  </data>
+  <data name="IncidentChamp4_8Obligatoire" xml:space="preserve">
+	  <value>Le champ 4.8 est obligatoire pour les rapports finaux</value>
+  </data>
+  <data name="IncidentChamp4_8Reussite" xml:space="preserve">
+	  <value>Lecture du champ 4.8 réussi</value>
+  </data>
+  <data name="IncidentChamp4_10Reussite" xml:space="preserve">
+	  <value>Lecture champ 4.10 et 4.11 réussi</value>
+  </data>
+  <data name="IncidentChamp4_13Obligatoire" xml:space="preserve">
+	  <value>Le champ 4.13 et 4.14 est obligatoire</value>
+  </data>
+  <data name="IncidentChamp4_13_4_14Reussite" xml:space="preserve">
+	  <value>Lecture champ 4.13 et 4.14 réussi</value>
+  </data>
+  <data name="IncidentChamp4_15_4_16Reussite" xml:space="preserve">
+	  <value>Lecture champ 4.15 et 4.16 réussi</value>
+  </data>
+</root>

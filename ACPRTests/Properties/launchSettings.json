@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ACPRTests": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Developpement\\acpr-dora\\ACPRTests\\ACPRTests"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+*/bin
+*/obj
+*/packages
+*.vs
+*.user
+ACPRConsole/file.xlsx
+ACPRConsole/save.json
+ACPRConsole/logs.log

@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "ACPRConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "file.xlsx .",
+      "workingDirectory": "C:\\Developpement\\acpr-dora\\ACPRConsole"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
