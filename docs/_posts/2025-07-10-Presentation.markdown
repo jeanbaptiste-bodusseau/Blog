@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Presentation"
-date:   2025-07-21 22:11:13 +0200
+date:   2025-07-10 22:11:13 +0200
 categories: jekyll update
 ---
 
@@ -12,7 +12,7 @@ Le Groupe Henner est une entreprise française spécialisée dans la gestion et 
 
 Aujourd’hui, Henner compte plus de 20 sites dans le monde et gère les contrats de plus de 2,3 millions de bénéficiaires. Ce positionnement mondial fait d’elle un acteur majeur dans son domaine.
 
-![alt text](Implantations.png)
+![alt text](../../Implantations.png)
 ## Secteur et service d'accueil
 
 Durant mon stage, j’ai intégré le service DSI (Direction des Systèmes d’Information), répartie entre les sites de Nantes et Neuilly-sur-Seine.
