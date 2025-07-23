@@ -5,7 +5,7 @@ date:   2025-07-21 22:11:13 +0200
 categories: jekyll update
 description: "Presentations."
 ---
-## Paragraphe Présentation
+## Présentation
 
 Présentation de l'entreprise Henner
 Le Groupe Henner est une entreprise française spécialisée dans la gestion et le courtage d’assurances de personnes. Fondé en 1964, le groupe s’est progressivement développé à l’international, avec une implantation en Asie depuis 1999 à Singapour, en Afrique depuis 2007 au Kenya, et aux USA depuis 2011.
