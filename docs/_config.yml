@@ -45,7 +45,6 @@ minima:
   skin: dark
 
   show_excerpts: true
-  excerpts_separator: "<!--more-->"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -33,7 +33,7 @@ layout: base
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ post.content | remove_first: post.excerpt }}
+    {{ content }}
   </div>
 
   {% if jekyll.environment == 'production' -%}
