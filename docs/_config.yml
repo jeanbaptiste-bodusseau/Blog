@@ -22,7 +22,7 @@ title: Blog
 author:
   name: Jean-Baptiste bodusseau
   email: bodusseau.jb@gmail.com
-  
+
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -44,7 +44,7 @@ sass:
 minima:
   skin: dark
 
-  show_excerpts: false
+  show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
