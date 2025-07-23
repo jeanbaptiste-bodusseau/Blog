@@ -2,7 +2,7 @@
 layout: post
 title:  "Presentation"
 date:   2025-07-21 22:11:13 +0200
-categories: jekyll update
+categories: posts
 description: "Presentations."
 url: "presentation"
 ---
