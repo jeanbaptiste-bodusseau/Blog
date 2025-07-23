@@ -4,6 +4,7 @@ title:  "Integration"
 date:   2025-07-20 22:11:13 +0200
 categories: posts
 description: "Integrations"
+permalink: /posts/
 ---
 J'ai ainsi commencé mon stage le 16 juin 2025. J'ai rapidement été accueilli par [Jordan Hamoignon](https://fr.linkedin.com/in/jordan-hamoignon-04555619a), qui seras mon tuteur pour les 6 semaines.
 
