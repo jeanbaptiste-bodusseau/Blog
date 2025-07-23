@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 Presentations.
-
+<!--more-->
 ## Paragraphe Présentation
 
 Présentation de l'entreprise Henner
