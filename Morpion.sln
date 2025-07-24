@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorpionBot", "Morpion\MorpionBot.csproj", "{3A278283-ECC9-E907-EB78-126B9DB256A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modeles", "Modeles\Modeles.csproj", "{2D621DA6-209C-4356-892F-F3780FBB975C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A278283-ECC9-E907-EB78-126B9DB256A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A278283-ECC9-E907-EB78-126B9DB256A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A278283-ECC9-E907-EB78-126B9DB256A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A278283-ECC9-E907-EB78-126B9DB256A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D621DA6-209C-4356-892F-F3780FBB975C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D621DA6-209C-4356-892F-F3780FBB975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D621DA6-209C-4356-892F-F3780FBB975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D621DA6-209C-4356-892F-F3780FBB975C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380E0CCA-5812-4AC7-A8A0-E3FE92057D49}
+	EndGlobalSection
+EndGlobal
