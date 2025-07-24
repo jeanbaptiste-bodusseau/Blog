@@ -9,7 +9,7 @@
           <span class="menu-icon"></span>
         </label>
 
-        {% assign post_paths = site.nav_bar_links | map: "path" %}
+        {% assign post_paths = site.nav_bar_links %}
         {% include nav-items.html paths = post_paths %}
       </nav>
     {%- endif %}
