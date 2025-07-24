@@ -1,9 +1,9 @@
 <header class="site-header">
 
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign default_paths = site.posts | map: "path" -%}
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
-    {%- assign page_titles = site.pages | map: 'title' | compact %}
+    {%- assign page_titles = site.posts | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
     {%- unless page_titles == empty %}
