@@ -60,7 +60,7 @@ collections:
     output: true
 
 nav_bar_links:
-  - _posts/2025-07-20-Presentation.md
+  - about.markdown
   - _posts/2025-07-20-Rapport.md
 
 
