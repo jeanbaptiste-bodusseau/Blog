@@ -10,7 +10,7 @@
         </label>
 
         {% assign post_paths = site.posts | map: "path" %}
-        {% include nav-items.html paths = post_paths %}
+        {% include nav-items.html paths = post_paths[0] %}
       </nav>
     {%- endif %}
   </div>
