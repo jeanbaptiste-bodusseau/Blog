@@ -6,11 +6,12 @@
     <!-- Navigation avec les posts -->
     {%- if site.posts != empty %}
       <nav class="site-nav">
-        <div class="trigger">
-          {%- for post in site.posts %}
-            <a class="page-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          {%- endfor %}
-        </div>
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        {% include nav-items.html paths = site.posts.path %}
       </nav>
     {%- endif %}
   </div>
