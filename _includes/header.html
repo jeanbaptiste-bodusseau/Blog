@@ -9,14 +9,13 @@
           <span class="menu-icon"></span>
         </label>
 
-        <ul class="nav-list">
+        <div class="trigger">
           {%- for post in site.posts %}
-            <li class="nav-item">
-              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </li>
+            <a class="page-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           {%- endfor %}
-        </ul>
+        </div>
       </nav>
+
     {%- endif %}
   </div>
 </header>
