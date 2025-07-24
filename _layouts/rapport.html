@@ -6,9 +6,9 @@ title: Projets
 <h1>Mes projets</h1>
 
 <ul>
-  {% for projet in site.projets %}
+  {% for postsRapport in site.postsRapport %}
     <li>
-      <a href="{{ projet.url | relative_url }}">{{ projet.title }}</a>
+      <a href="{{ postsRapport.url | relative_url }}">{{ postsRapport.title }}</a>
     </li>
   {% endfor %}
 </ul>
