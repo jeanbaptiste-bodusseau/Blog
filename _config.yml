@@ -44,8 +44,13 @@ sass:
 
 minima:
   skin: dark
-  hide_site_feed_link: true
+
   show_excerpts: true
+
+  social_links:
+    - title: Github
+      icon: github
+      url: https://github.com/Luky-probably-not
 
 
 collections:
