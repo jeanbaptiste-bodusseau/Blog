@@ -51,6 +51,10 @@ minima:
     - title: Github
       icon: github
       url: https://github.com/Luky-probably-not
+  
+  nav_pages:
+    - 2025-07-20-Presentation.md
+    - 2025-07-20-Rapport.md
 
 
 collections:
