@@ -1,3 +1,12 @@
+---
+layout: rapport
+title:  "Continuation"
+date:   2025-07-20 22:11:13 +0200
+categories: jekyll update
+description: "Integrations"
+permalink: /rapport/Continuation
+---
+
 ### Continuation
 
 Une fois les données au bon format dans mes classes respectives, il était temps de les enregistrer dans un fichier JSON de sortie.

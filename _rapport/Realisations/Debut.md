@@ -1,3 +1,12 @@
+---
+layout: rapport
+title:  "Debut"
+date:   2025-07-20 22:11:13 +0200
+categories: jekyll update
+description: "Integrations"
+permalink: /rapport/Debut
+---
+
 ### Début Projet
 
 Une fois le sujet pris en main, et quelques questions posées à Jordan, j'ai pu enfin commencer à coder.

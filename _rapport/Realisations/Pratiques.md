@@ -1,3 +1,12 @@
+---
+layout: rapport
+title:  "Pratiques"
+date:   2025-07-20 22:11:13 +0200
+categories: jekyll update
+description: "Integrations"
+permalink: /rapport/Pratiques
+---
+
 ### Bonnes pratiques
 
 Je m'en vais montrer mon travail à Jordan, afin d'avoir un premier retour.\

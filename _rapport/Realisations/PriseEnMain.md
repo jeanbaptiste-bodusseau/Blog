@@ -1,3 +1,12 @@
+---
+layout: rapport
+title:  "PriseEnMain"
+date:   2025-07-20 22:11:13 +0200
+categories: jekyll update
+description: "Integrations"
+permalink: /rapport/PriseEnMain
+---
+
 ### Prise en main sujet
 
 #### Outils Données
