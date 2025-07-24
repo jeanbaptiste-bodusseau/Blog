@@ -1,16 +1,14 @@
 <header class="site-header">
   <div class="wrapper">
-    <!-- Titre du site -->
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
-    <!-- Navigation avec les posts -->
     {%- if site.posts != empty %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon"></span>
         </label>
-        
+
         {% assign post_paths = site.posts | map: "path" %}
         {% include nav-items.html paths = post_paths %}
       </nav>
