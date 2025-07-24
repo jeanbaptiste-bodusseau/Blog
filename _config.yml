@@ -53,6 +53,11 @@ minima:
       url: https://github.com/Luky-probably-not
   
   
+collections:
+  posts:
+    output: true
+  rapport:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
