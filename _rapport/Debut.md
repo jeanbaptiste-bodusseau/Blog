@@ -1,5 +1,5 @@
 ---
-layout: rapport
+layout: post
 title:  "Debut"
 date:   2025-07-20 22:11:13 +0200
 categories: jekyll update
