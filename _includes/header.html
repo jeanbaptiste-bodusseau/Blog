@@ -10,8 +10,9 @@
         <label for="nav-trigger">
           <span class="menu-icon"></span>
         </label>
-
-        {% include nav-items.html paths = site.path %}
+        
+        {% assign post_paths = site.posts | map: "path" %}
+        {% include nav-items.html paths = post_paths %}
       </nav>
     {%- endif %}
   </div>
