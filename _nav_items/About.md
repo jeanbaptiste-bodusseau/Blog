@@ -16,3 +16,5 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+[📄 Télécharger le PDF]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})
