@@ -22,7 +22,7 @@ You can find the source code for Jekyll at GitHub:
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
   <!-- Case 1 -->
-  <div style="text-align: center; max-width: 150px;">
+  <div style="text-align: center; max-width: 200px;">
     <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Étape 1</strong><br>
@@ -35,7 +35,7 @@ You can find the source code for Jekyll at GitHub:
   <div style="font-size: 24px;">&#8592;</div>
 
   <!-- Case 2 -->
-  <div style="text-align: center; max-width: 150px;">
+  <div style="text-align: center; max-width: 200px;">
     <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Bachelor Informatique (en cours)</strong><br>
@@ -48,7 +48,7 @@ You can find the source code for Jekyll at GitHub:
   <div style="font-size: 24px;">&#8592;</div>
 
   <!-- Case 3 -->
-  <div style="text-align: center; max-width: 150px;">
+  <div style="text-align: center; max-width: 200px;">
     <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Baccalauréat Général 2023</strong><br>
