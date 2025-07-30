@@ -52,7 +52,8 @@ You can find the source code for Jekyll at GitHub:
     <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Baccalauréat Général 2023</strong><br>
-      Mathématique - NSI - Maths Experts<br>
+      Mathématique - NSI<br>
+      Options Maths Experts<br>
       <a href="https://www.staubinlasalle.fr" target="_blank">Saint Aubin-La-Salle - Verrières-En-Anjou</a>
     </div>
   </div>
