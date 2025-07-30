@@ -49,7 +49,7 @@ You can find the source code for Jekyll at GitHub:
 
   <!-- Case 3 -->
   <div style="text-align: center; max-width: 150px;">
-    <img src="{{ '/assets/images/Implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/Blog/assets/images/Implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Baccalauréat Général 2023</strong><br>
       Mathématique - NSI - Maths Experts<br>
