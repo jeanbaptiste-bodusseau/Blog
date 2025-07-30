@@ -43,7 +43,7 @@ You can find the source code for Jekyll at GitHub:
       <a href="https://www.ynov.com/campus/nantes" target="_blank">Ynov Campus - Nantes</a>
     </div>
   </div>
-
+  
   <!-- Flèche -->
   <div style="font-size: 24px;">&#8592;</div>
 
