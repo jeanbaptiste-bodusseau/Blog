@@ -19,7 +19,7 @@ You can find the source code for Jekyll at GitHub:
 
 [Mon CV]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})
 
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
   <!-- Case 1 -->
   <div style="text-align: center; max-width: 200px;">
