@@ -4,39 +4,26 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
-
-[Mon CV]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})
+### Mon Parcours
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
-  <!-- Case 1 -->
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/henner_logo.jpg' | relative_url }}" style="width: 46%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
-      <strong>Étape 1</strong><br>
-      Description<br>
-      sur plusieurs lignes
+      <strong>Développeur informatique</strong><br>
+      En alternance (en cours)<br>
+      Henner GMC - Equipe DSI<br>
+      <a href="https://www.henner.com" target="_blank">Henner nantes</a>
     </div>
   </div>
 
-  <!-- Flèche -->
-  <div style="font-size: 24px;">&#8592;</div>
+  <div style="display: flex; align-items: center; justify-content: center; height: auto; min-height: 100px;">
+    <div style="font-size: 24px;">&#8592;</div>
+  </div>
 
-  <!-- Case 2 -->
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/ynov_logo.png' | relative_url }}" style="width: 46%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Bachelor Informatique<br>(en cours)</strong><br>
       Troisième année<br>
@@ -44,12 +31,12 @@ You can find the source code for Jekyll at GitHub:
     </div>
   </div>
 
-  <!-- Flèche -->
-  <div style="font-size: 24px;">&#8592;</div>
+  <div style="display: flex; align-items: center; justify-content: center; height: auto; min-height: 100px;">
+    <div style="font-size: 24px;">&#8592;</div>
+  </div>
 
-  <!-- Case 3 -->
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/staubin_logo.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Baccalauréat Général 2023</strong><br>
       Mathématique - NSI<br>
@@ -59,3 +46,54 @@ You can find the source code for Jekyll at GitHub:
   </div>
 
 </div>
+
+#### Autres Expériences
+<div style="display: flex; align-items: flex-start; gap: 50px; flex-wrap: wrap; justify-content: center;">
+
+  <div style="text-align: center; max-width: 200px;">
+    <img src="{{ '/assets/images/henner_logo.jpg' | relative_url }}" style="width: 37%; border: 1px solid #ccc; border-radius: 10px;">
+    <div style="margin-top: 8px;">
+      <strong>Développeur Stagiare</strong><br>
+      Henner GMC - Equipe DSI<br>
+      <a href="https://www.henner.com" target="_blank">Henner nantes</a>
+    </div>
+  </div>
+
+  <div style="text-align: center; max-width: 200px;">
+    <img src="{{ '/assets/images/montsorelli_logo.jpg' | relative_url }}" style="width: 65%; border: 1px solid #ccc; border-radius: 10px;">
+    <div style="margin-top: 8px;">
+      <strong>Serveur</strong><br>
+      Eté 2023 & été 2024<br>
+      Restaurant Le Montsorelli - Montsoreau<br>
+      <a href="https://www.hotel-lebussy.fr" target="_blank">Restaurant Le Montsorelli - Hotel Le Bussy</a>
+    </div>
+  </div>
+
+  <div style="text-align: center; max-width: 200px;">
+    <img src="{{ '/assets/images/mediatheque_logo.png' | relative_url }}" style="width:100%; border: 1px solid #ccc; border-radius: 10px;">
+    <div style="margin-top: 8px;">
+      <strong>Bibliothécaire stagiaire </strong><br>
+      Janvier 2020<br>
+      Espace COOLturel - Divatte-sur-Loire<br>
+      <a href="https://www.espacecoolturel.fr" target="_blank">Espace COOLturel</a>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Mon CV]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})
