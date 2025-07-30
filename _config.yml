@@ -20,8 +20,10 @@
 
 title: Blog
 author:
-  name: Jean-Baptiste bodusseau
+  name: Jean-Baptiste BODUSSEAU
   email: bodusseau.jb@gmail.com
+  phone: "0769155191"
+  cv: "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this

@@ -80,20 +80,3 @@ permalink: /about/
   </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[Mon CV]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})

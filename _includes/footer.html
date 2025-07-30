@@ -14,6 +14,12 @@
           {% endif -%}
           {% if site.author.email -%}
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {% endif -%}
+          {% if site.author.phone -%}
+            <li><a class="p-name" href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
+          {% endif -%}
+          {% if site.author.cv -%}
+            <li><a class="p-name" href="{{ site.author.cv | "relative_url"}}">Mon CV</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
