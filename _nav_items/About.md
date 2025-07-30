@@ -17,4 +17,44 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
-[📄 Télécharger le PDF]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})
+[Mon CV]({{ "/assets/files/BODUSSEAU_jean-baptiste_CV.pdf" | "relative_url"}})
+
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
+
+  <!-- Case 1 -->
+  <div style="text-align: center; max-width: 150px;">
+    <img src="{{ '/assets/images/implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <div style="margin-top: 8px;">
+      <strong>Étape 1</strong><br>
+      Description<br>
+      sur plusieurs lignes
+    </div>
+  </div>
+
+  <!-- Flèche -->
+  <div style="font-size: 24px;">&#8592;</div>
+
+  <!-- Case 2 -->
+  <div style="text-align: center; max-width: 150px;">
+    <img src="{{ '/assets/images/implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <div style="margin-top: 8px;">
+      <strong>Étape 2</strong><br>
+      Une autre description<br>
+      sur plusieurs lignes
+    </div>
+  </div>
+
+  <!-- Flèche -->
+  <div style="font-size: 24px;">&#8592;</div>
+
+  <!-- Case 3 -->
+  <div style="text-align: center; max-width: 150px;">
+    <img src="{{ '/assets/images/implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <div style="margin-top: 8px;">
+      <strong>Étape 3</strong><br>
+      Dernière étape<br>
+      explication finale
+    </div>
+  </div>
+
+</div>
