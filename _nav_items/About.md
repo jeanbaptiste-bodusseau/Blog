@@ -23,7 +23,7 @@ You can find the source code for Jekyll at GitHub:
 
   <!-- Case 1 -->
   <div style="text-align: center; max-width: 150px;">
-    <img src="{{ '/assets/images/Implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Étape 1</strong><br>
       Description<br>
@@ -36,7 +36,7 @@ You can find the source code for Jekyll at GitHub:
 
   <!-- Case 2 -->
   <div style="text-align: center; max-width: 150px;">
-    <img src="{{ '/assets/images/Implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Étape 2</strong><br>
       Une autre description<br>
@@ -49,11 +49,11 @@ You can find the source code for Jekyll at GitHub:
 
   <!-- Case 3 -->
   <div style="text-align: center; max-width: 150px;">
-    <img src="{{ '/Blog/assets/images/Implantation.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/Blog/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Baccalauréat Général 2023</strong><br>
       Mathématique - NSI - Maths Experts<br>
-      <a href="https://www.staubinlasalle.fr">Saint Aubin-La-Salle - Verrières-En-Anjou</a>
+      <a href="https://www.staubinlasalle.fr" target="_blank">Saint Aubin-La-Salle - Verrières-En-Anjou</a>
     </div>
   </div>
 
