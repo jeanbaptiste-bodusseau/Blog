@@ -38,12 +38,12 @@ You can find the source code for Jekyll at GitHub:
   <div style="text-align: center; max-width: 200px;">
     <img src="{{ '/assets/images/Implantations.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
-      <strong>Bachelor Informatique (en cours)</strong><br>
+      <strong>Bachelor Informatique<br>(en cours)</strong><br>
       Troisième année<br>
       <a href="https://www.ynov.com/campus/nantes" target="_blank">Ynov Campus - Nantes</a>
     </div>
   </div>
-  
+
   <!-- Flèche -->
   <div style="font-size: 24px;">&#8592;</div>
 
