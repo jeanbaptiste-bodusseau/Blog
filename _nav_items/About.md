@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: A propos
 permalink: /about/
 ---
 
@@ -8,8 +8,8 @@ permalink: /about/
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; justify-content: center;">
 
-  <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/henner_logo.jpg' | relative_url }}" style="width: 46%; border: 1px solid #ccc; border-radius: 10px;">
+  <div style="text-align: center; max-width: 200px; ">
+    <img src="{{ '/assets/images/henner_logo.jpg' | relative_url }}" style="max-height:95px;max-width:95px; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Développeur informatique</strong><br>
       En alternance (en cours)<br>
@@ -23,7 +23,7 @@ permalink: /about/
   </div>
 
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/ynov_logo.png' | relative_url }}" style="width: 46%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/ynov_logo.png' | relative_url }}" style="max-height:95px;max-width:95px; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Bachelor Informatique<br>(en cours)</strong><br>
       Troisième année<br>
@@ -36,7 +36,7 @@ permalink: /about/
   </div>
 
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/staubin_logo.png' | relative_url }}" style="width: 100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/staubin_logo.png' | relative_url }}" style=" height:95px; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Baccalauréat Général 2023</strong><br>
       Mathématique - NSI<br>
@@ -51,7 +51,7 @@ permalink: /about/
 <div style="display: flex; align-items: flex-start; gap: 50px; flex-wrap: wrap; justify-content: center;">
 
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/henner_logo.jpg' | relative_url }}" style="width: 37%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/henner_logo.jpg' | relative_url }}" style="height:75px; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Développeur Stagiare</strong><br>
       Henner GMC - Equipe DSI<br>
@@ -60,7 +60,7 @@ permalink: /about/
   </div>
 
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/montsorelli_logo.jpg' | relative_url }}" style="width: 65%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/montsorelli_logo.jpg' | relative_url }}" style="height:75px; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Serveur</strong><br>
       Eté 2023 & été 2024<br>
@@ -70,7 +70,7 @@ permalink: /about/
   </div>
 
   <div style="text-align: center; max-width: 200px;">
-    <img src="{{ '/assets/images/mediatheque_logo.png' | relative_url }}" style="width:100%; border: 1px solid #ccc; border-radius: 10px;">
+    <img src="{{ '/assets/images/mediatheque_logo.png' | relative_url }}" style="height:75px; border: 1px solid #ccc; border-radius: 10px;">
     <div style="margin-top: 8px;">
       <strong>Bibliothécaire stagiaire </strong><br>
       Janvier 2020<br>
