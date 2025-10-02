@@ -20,3 +20,40 @@
   </body>
 
 </html>
+
+<!-- inclure le SDK -->
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+
+<script>
+  (function(){
+    emailjs.init('wVYY8sFpwP4sP6Of0'); // ex: user_xxx
+  })();
+function shouldSend() {
+    const last = localStorage.getItem('lastNotify');
+    if (!last) return true;
+    const minutes = (Date.now() - parseInt(last,10)) / 60000;
+    return minutes > 10; // envoie au max une fois toutes les 10 minutes par navigateur
+  }
+
+  window.addEventListener('load', function() {
+    if (!shouldSend()) return;
+    const templateParams = {
+      title: "Visite sur le blog",
+      name : "inconnu",
+      time : new Date().toLocaleString(),
+      message: "Quelqu'un est en train de lire le blog.",
+    };
+
+    const serviceID = "default_service";
+    const templateID = "template_redx2sj";
+
+    emailjs.send(serviceID, templateID, templateParams)
+      .then(() => {
+        console.log('Mail envoyé !');
+      })
+      .catch((err) => {
+        console.error('Erreur EmailJS:', err);
+      });
+  });
+</script>
+

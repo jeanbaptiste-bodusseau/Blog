@@ -97,7 +97,7 @@ permalink: /about/
         </div>
         <div class="projet-legende">
           <h3><ins>Telesce</ins></h3>
-          <p>Ce jeu de plateforme 2D à été réalisé en classe, avec l'aide de mon camarade Aurélien Dugast.</p>
+          <p>Ce jeu de plateforme 2D à été réalisé en classe, avec l'aide de mon camarade <a href="https://blog-v0ja.onrender.com/blog" target="_blank">Aurélien Dugast</a>.</p>
           <h4>Technologies Utilisés</h4>
           <p>Unity - C#</p>
         </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pratiques"
-date:   2025-07-20 22:11:13 +0200
+date:   2025-07-22 22:11:13 +0200
 categories: jekyll update
 description: "Integrations"
 permalink: /rapport/Pratiques
